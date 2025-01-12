@@ -9,7 +9,8 @@ GameControls - Overall namespace
 	Utilities - holds converters for images textures, etc.
 	
 Just like the old xna, which for it's time was very good, this library will, as the end product, be used in Visual studio
-just like any other template to build projects. As such when a project is created it creates a Program.cs file that is preset to thiis:
+just like any other template to build projects. As such when a project is created it creates a Program.cs file that is preset to this:
+
     class Program 
     { 
         static void Main(string[] args) 
@@ -23,6 +24,7 @@ just like any other template to build projects. As such when a project is create
 where test game will be replaced by the project name when the project is created. It also creates a second file named Game1.cs
 which is the heart of the program and contains the game loop. It also has a pre-determined template that the user simply "fills-in"
 with thier own code. This is the template structure for the Game1 file: 
+
 using System; 
 using GameControls; 
 using System.Diagnostics;
@@ -68,6 +70,7 @@ namespace $ProjectName  // This value will change to the project name in the cre
 		} 
 	}
 }
+
 Some of the structure for the gameloop program may be changing.
 Currently working on Game - GraphicsDeviceManager - ContentManager - GraphicsDevices - GCWindow - Texture2D - RenderTarget2D - PopUpWindow 
 creation, management, passing and rendering.
